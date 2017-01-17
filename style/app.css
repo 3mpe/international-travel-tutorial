@@ -1,0 +1,29 @@
+.header { border-bottom: 1px solid #bdbdbd; }
+.header #title {
+		width: 100%;
+    text-align: center;
+    font-size: 26px;
+    padding: 5px;
+    font-weight: 400;
+		margin: 0;
+}
+
+.content .card { border-bottom: 1px solid #bdbdbd; padding-bottom: 8px;}
+.content .card:last-child { border-bottom: none; }
+.content .card .item { }
+.content .card .item .header { position: relative; display: flex; justify-content: flex-start; align-items: center; border-bottom: none; padding-bottom: 15px; padding-top: 15px; }
+
+.content .card .item .header .description { display: inline-block; padding-left: 6px; }
+.content .card .item .header .description h1{  font-size: 18px; font-weight: 500; margin: 0; }
+.content .card .item .header .description p { margin: 0; }
+.content .card .item .header .description .total-date { position: absolute; right: 0; bottom: 40%; }
+.content .card .item .header img { width: 60px; height: 60px; border: none; border-radius: 35%; }
+
+
+.content .card .item .content { height: 180px; }
+.content .card .item .content .image-list { display: flex; justify-content: space-between;  overflow-x: auto;  }
+
+.content .card .item .footer { position: relative; padding-left: 8px; padding-top: 8px;}
+.content .card .item .footer .title { font-size: 18px; margin: 0; }
+.content .card .item .footer .description { font-size: 15px; margin: 0; width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.content .card .item .footer .check { position: absolute; right: 10px; top: -8px; }

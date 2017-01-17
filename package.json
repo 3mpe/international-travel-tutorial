@@ -1,0 +1,8 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Emre Vatansever <vatanseveremre90@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

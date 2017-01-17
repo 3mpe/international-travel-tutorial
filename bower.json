@@ -1,0 +1,20 @@
+{
+  "name": "travel",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Emre Vatansever <vatanseveremre90@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swiper": "^3.4.1"
+  }
+}

@@ -1,0 +1,29 @@
+.header {  position: relative; height: 250px; }
+.header img { width: 100%; height: 100%; }
+
+.header .bg img { width: 60px; height: 60px; border: none; border-radius: 35%; margin-left: 10px !important; } 
+.header .bg { position: absolute; z-index: 9; border: 0; top: 160px; color: #fff; }
+
+.header .description { padding-left: 6px; float: right; letter-spacing: 4px; padding-top: 10px; }
+.header .description h1{  font-size: 18px; font-weight: 500; margin: 0; }
+.header .description p { margin: 0; }
+.header .description .total-date { position: absolute; right: 0; bottom: 40%; }
+
+
+.content .card .item { position: relative; padding-left: 10px;}
+.content .card .item .title { margin: 0; font-size: 25px; padding-bottom: 3px; font-weight: 500; }
+.content .card .item .date { margin: 0; font-size: 14px; font-weight: 300; padding-bottom: 10px; }
+.content .card .item .icon { position: absolute; right: 12px; top: 13px; font-size: 16px; font-weight: 700; }
+
+.content .like-card .title { margin: 0; font-size: 18px; padding: 10px; }
+.content .like-card .title .more { float: right; font-size: 10px; }
+
+.content .like-card .items { border: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; overflow-x: auto; background: #ddd; padding: 3px; }
+.content .like-card .items .item { padding: 10px; border-right: 1px solid #763636; margin-right: 5px; background: #fff; }
+.content .like-card .items .item .image-list {  }
+.content .like-card .items .item .image-list img{ }
+.content .like-card .items .item .other { display: flex; justify-content: flex-start; align-items: center; }
+.content .like-card .items .item .other .price { margin: 0; padding: 0; flex: 1; }
+.content .like-card .items .item .other .description { margin: 0; padding: 0; border: 1px solid; padding: 8px; background: rgba(146, 150, 146, 0.69); color: #fff; line-height: 5px; }
+.content .like-card .items .item { }
+.content .like-card .items .item { }
